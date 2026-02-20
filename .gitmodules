@@ -1,0 +1,6 @@
+[submodule "submodules/energy-repset-website"]
+	path = submodules/energy-repset-website
+	url = git@github.com:helgeesch/energy-repset-website.git
+[submodule "submodules/mesqual-website"]
+	path = submodules/mesqual-website
+	url = git@github.com:helgeesch/mesqual-website.git
