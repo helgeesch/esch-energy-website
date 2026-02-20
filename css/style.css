@@ -270,6 +270,46 @@ h1 {
     text-transform: uppercase;
     vertical-align: middle;
 }
+.project-highlight-link {
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 1;
+}
+.project-highlight-link a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 5px 12px;
+    background: rgba(74, 111, 165, 0.06);
+    border: 1px solid rgba(74, 111, 165, 0.2);
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+.project-highlight-link a:hover {
+    background: rgba(74, 111, 165, 0.12);
+    border-color: rgba(74, 111, 165, 0.35);
+}
+.project-highlight-link a svg {
+    flex-shrink: 0;
+}
+.project-arrow-demo {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 16px;
+    padding: 8px 0;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.02);
+    overflow: hidden;
+}
+.project-arrow-demo object {
+    height: 56px;
+    width: auto;
+}
 .project-links {
     display: flex;
     align-items: center;
