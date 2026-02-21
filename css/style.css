@@ -226,17 +226,27 @@ h1 {
     font-size: 0.95rem;
     line-height: 1.6;
     margin: 0 0 16px;
-}
-.project-card > p:not(.project-motivation) {
     flex: 1;
 }
-.project-motivation {
-    font-size: 0.85rem;
+.motivation-block {
+    margin-bottom: 40px;
+}
+.motivation-block h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: var(--heading-color);
+}
+.motivation-item {
+    font-size: 0.9rem;
     font-style: italic;
     color: var(--text-color-light);
-    opacity: 0.8;
-    line-height: 1.6;
-    margin: 0 0 16px;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+.motivation-item strong {
+    font-style: normal;
+    color: var(--text-color);
 }
 .project-card-link {
     color: inherit;
