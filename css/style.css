@@ -131,9 +131,20 @@ h1 {
 .hero-tagline {
     font-size: 1rem;
     max-width: 600px;
-    margin: 0 0 20px;
+    margin: 0 0 12px;
     color: var(--text-color-light);
     line-height: 1.7;
+}
+.hero-tagline:last-of-type {
+    margin-bottom: 20px;
+}
+.hero-tagline a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+.hero-tagline a:hover {
+    text-decoration: underline;
 }
 .hero-pills {
     display: flex;
@@ -215,7 +226,17 @@ h1 {
     font-size: 0.95rem;
     line-height: 1.6;
     margin: 0 0 16px;
+}
+.project-card > p:not(.project-motivation) {
     flex: 1;
+}
+.project-motivation {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--text-color-light);
+    opacity: 0.8;
+    line-height: 1.6;
+    margin: 0 0 16px;
 }
 .project-card-link {
     color: inherit;
@@ -428,6 +449,7 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+    .hero-tagline { max-width: none; }
     .hero-pills { justify-content: center; }
     .section { padding: 60px 0; }
     .section-header h2 { font-size: 1.8rem; }
